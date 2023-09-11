@@ -1,0 +1,32 @@
+.signup {
+  font-family: sans-serif;
+  flex-direction: column;
+  text-align: left;
+  display: flex;
+  padding: 12px 120px;
+  &_field {
+    display: flex;
+    flex-direction: column
+  }
+  &_component {
+    height: 36px,
+  }
+  &_input-label {
+    font-size: 16px;
+    margin: 6px 0 6px 0;
+  }
+  &_error-message {
+    margin: 6px;
+    color: orangered;
+    font-size: 12px;
+  }
+  &_submit-button {
+    align-self: flex-end;
+    background-color: #5e63e5;
+    border: none;
+    color: white;
+    margin: 24px 0 10px 10px;
+    height: 36px;
+    width: 120px
+  }
+}
